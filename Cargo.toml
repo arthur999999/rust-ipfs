@@ -92,7 +92,7 @@ unsigned-varint = { version = "0.8.0", features = ["asynchronous_codec"] }
 void = { default-features = false, version = "1" }
 wasm-bindgen-futures = { version = "0.4" }
 web-time = "1.1.0"
-zeroize = "1.3.0"
+zeroize-old = { version = "1", package = "zeroize"}
 
 
 [dependencies]
@@ -140,7 +140,7 @@ tracing-futures = { workspace = true }
 unsigned-varint.workspace = true
 void = { default-features = false, workspace = true }
 web-time.workspace = true
-zeroize.workspace = true
+zeroize-old.workspace = true
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 futures-timer.workspace = true
