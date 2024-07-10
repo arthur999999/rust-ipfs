@@ -92,7 +92,7 @@ unsigned-varint = { version = "0.8.0", features = ["asynchronous_codec"] }
 void = { default-features = false, version = "1" }
 wasm-bindgen-futures = { version = "0.4" }
 web-time = "1.1.0"
-zeroize-old = { version = "1", package = "zeroize"}
+zeroize-old = { version = "1.6.0", package = "zeroize"}
 
 
 [dependencies]
